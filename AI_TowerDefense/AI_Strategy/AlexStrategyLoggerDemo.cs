@@ -7,14 +7,13 @@ namespace AI_Strategy
     /*
      * very simple example strategy based on random placement of units.
      */
-    public class RandomStrategyLoggerDemo : AbstractStrategy
+    public class AlexStrategyLoggerDemo : AbstractStrategy
     {
         private int messageCounter = 1;
         private static Random random = new Random();
 
-        public RandomStrategyLoggerDemo(Player player) : base(player)
+        public AlexStrategyLoggerDemo(Player player) : base(player)
         {
-
         }
 
         /*

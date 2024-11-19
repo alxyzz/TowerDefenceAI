@@ -44,11 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AI_TowerDefense\.DS_Store" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI_TowerDefense\AI_Strategy\AbstractStrategy.cs" />
+    <Compile Include="AI_TowerDefense\AI_Strategy\AttackerSoldier.cs" />
+    <Compile Include="AI_TowerDefense\AI_Strategy\SentrySoldier.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\MySoldier.cs" />
+    <Compile Include="AI_TowerDefense\AI_Strategy\AlexStrategy.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\RandomStrategy.cs" />
+    <Compile Include="AI_TowerDefense\AI_Strategy\AlexStrategyLoggerDemo.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\RandomStrategyLoggerDemo.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\TowerPlacementTestStrategy.cs" />
     <Compile Include="AI_TowerDefense\GameFramework\Cell.cs" />
