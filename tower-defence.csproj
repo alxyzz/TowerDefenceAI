@@ -5,7 +5,7 @@
     <ProjectGuid>{4A7CE833-FBC1-484C-A630-09761A53194E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <AssemblyName>ConsoleApplication</AssemblyName>
+    <AssemblyName>Alex_TowerDefense_AI_VS_Random</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -33,6 +33,9 @@
   <PropertyGroup>
     <RootNamespace>tower_defence</RootNamespace>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AI_TowerDefense.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -49,9 +52,8 @@
   <ItemGroup>
     <Compile Include="AI_TowerDefense\AI_Strategy\AbstractStrategy.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\Alex\AlexSoldier.cs" />
-    <Compile Include="AI_TowerDefense\AI_Strategy\Alex\AlexTowerPlacementStrategy.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\MySoldier.cs" />
-    <Compile Include="AI_TowerDefense\AI_Strategy\Alex\AlexSoldierPlacementStrategy.cs" />
+    <Compile Include="AI_TowerDefense\AI_Strategy\Alex\AlexPlacementStrategy.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\RandomStrategy.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\RandomStrategyLoggerDemo.cs" />
     <Compile Include="AI_TowerDefense\AI_Strategy\TowerPlacementTestStrategy.cs" />
